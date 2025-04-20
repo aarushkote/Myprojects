@@ -9,7 +9,6 @@ function startGame() {
   p1Name = document.getElementById("player1Name").value || "Player 1";
   p2Name = document.getElementById("player2Name").value || "Player 2";
 
-  // Reset positions and scores
   p1Pos = 0;
   p2Pos = 0;
   p1Score = 0;

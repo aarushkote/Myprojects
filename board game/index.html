@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Dice Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎲 Simple Dice Game</h1>
+
+  <label>Player 1: <input id="player1Name" /></label><br>
+  <label>Player 2: <input id="player2Name" /></label><br><br>
+  <button onclick="startGame()">Start Game</button>
+
+  <div id="game" style="display: none;">
+    <p id="turnText"></p>
+    <button id="rollButton" onclick="rollDice()">Roll Dice</button>
+    <p id="diceResult"></p>
+    <p id="score1"></p>
+    <p id="score2"></p>
+    <p id="finalResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
